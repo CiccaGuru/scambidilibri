@@ -1,0 +1,60 @@
+/*div{
+	padding:0.5em;
+}
+*/
+p {
+  line-height: 2rem;
+}
+
+
+.input-field input[type=text]:focus, .input-field input[type=password]:focus {
+     border-bottom: 1px solid #ff9800 ;
+     box-shadow: 0 1px 0 0 #ff9800;
+}
+
+ .input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label {
+     color: #ff9800 ;
+}
+
+   .input-field .prefix.active {
+     color: #ff9800 ;
+}
+
+#intest{
+	padding:1.5em;
+}
+
+#conten{
+	margin-top:2em;
+}
+
+[type="radio"]:checked + label:after{
+	  border: 2px solid #ff9800;
+	background-color: #ff9800;
+	color:red;
+}
+
+#cont-radio{
+	margin-top:0.5em;
+	margin-bottom:3em;
+}
+
+#cont-radio p{
+	padding-left:2em;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.scelta{
+	padding-left:3em !important; 
+	padding-right:3em !important; 
+}
+
+#cont-tabella {
+	margin:3em;
+	padding:2em;
+}
+
+#aggiungi-risultati{
+	padding:2em;
+}
